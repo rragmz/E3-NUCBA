@@ -50,7 +50,7 @@ const PizzasSelected=()=>{
         
         const pizzaSelected= Pizzas.find((pizza) => pizza.ID === inputValue);
             if(pizzaSelected === undefined){
-                alert("No coincide el ID con las pizzas que estan en la carta");
+                alert("No tenemos pizza con ese ID 🙁");
                 if($img){
                     $img.style.display = 'none';
                 }
