@@ -20,6 +20,9 @@
 
 .pizza-info h2{
     font-size: 3rem;
+    background-color: rgb(255, 204, 184);
+    border-radius: 10px;
+    margin: 10px;
 }
 
 .pizza-info h4{
@@ -59,4 +62,14 @@ img{
 
 .user-input button:hover{
     background-color: rgb(255, 169, 132);
+}
+
+#ingredientes{
+    display: none;
+}
+h5{
+   
+    font-size: 1.4rem;
+    font-weight: lighter;
+    margin: 10px;
 }
